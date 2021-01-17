@@ -1,0 +1,20 @@
+<!-- Base HTML for all statc needs -->
+{% load static %}
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Alo's Routine</title>
+
+    <link rel="stylesheet" href="{% static 'css/master.css' %}">
+  </head>
+  <body>
+    <h1>Alo's Routine</h1>
+    <div class="main-container">
+      {% block content %}
+
+      {% endblock content%}
+    </div>
+  </body>
+</html>
