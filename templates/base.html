@@ -1,4 +1,4 @@
-<!-- Base HTML for all statc needs -->
+<!-- Base HTML for all static needs -->
 {% load static %}
 <!DOCTYPE html>
 <!DOCTYPE html>
@@ -8,8 +8,21 @@
     <title>Alo's Routine</title>
 
     <link rel="stylesheet" href="{% static 'css/master.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Noto+Sans+JP&display=swap" rel="stylesheet">
   </head>
   <body>
+    <nav>
+      <div class="nav-desktop">
+        <span id="nav_logo"><a href="#">MyRoutine</a></span>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Nutrition</a></li>
+          <li><a href="#">Expenses</a></li>
+          <li><a href="#">Activities</a></li>
+        </ul>
+      </div>
+    </nav>
     <h1>Alo's Routine</h1>
     <div class="main-container">
       {% block content %}
