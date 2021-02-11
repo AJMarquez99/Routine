@@ -1,0 +1,55 @@
+Refrigerator
+  - id
+  - item_id
+  - user_id
+  - purchase_date
+  - quantity
+
+Items
+  - id
+  - name
+  - longetivity
+  - cost
+  - calories
+  - type
+
+Activities
+  - id
+  - name
+  - min_length
+  - max_length
+  - min_cost
+  - max_cost
+
+User
+  - id
+  - email
+  - f_name
+  - l_name
+  - m_name
+  - phone_num
+  - nickname
+  - initial_date
+  - age
+  - gender
+  - sex
+  - initial_weight
+  - important_weight
+  - city
+  - state
+  - relationship_status
+
+Time
+ - id
+ - activity_id
+ - user_id
+ - time_alloted
+ - days_alloted
+
+Recipes
+ - id
+ - name
+ - required_itmes
+ - prep_time
+ - meal_type
+ 
